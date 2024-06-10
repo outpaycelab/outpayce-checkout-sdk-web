@@ -1,14 +1,27 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 4.0.0 - Supported until 15 May 2025
+- Migration to Angular 17
+- Migration to Material 17 with official Material Design Components for Web (MDC).
+    https://material.angular.io/guide/mdc-migration
+    https://github.com/material-components/material-components-web
+- Removal of `standard` in `matAppearance`
+- List of mop is now a `mat-selection-list` and not a `mat-radio-group`
+- Added new Payment Method `PayByLink`
+- Added news logos : bizum, duitnow, instapay and orange money
+- Add Korean translation for missing cities
 
-### 3.2.2
-#### Supported until 08 Nov 2024
+### 3.2.5 - Supported until 08 Nov 2024
+- Added news logos : bizum, duitnow, instapay and orange money
+### 3.2.4 - Supported until 08 Nov 2024
+- Fixing the path to serve test static resources
+### 3.2.3 - Supported until 08 Nov 2024
+- bug fix on payment page is getting freeze when the length of email is more than 30 characters.
+### 3.2.2 - Deprecated due to email bug - Please use 3.2.3
 - fix bad import on previous version
-### 3.2.1
-#### Supported until 08 Nov 2024
+### 3.2.1 - Deprecated due to email bug - Please use 3.2.3
 - fix bad import on previous version
-### 3.2.0
-#### Supported until 08 Nov 2024
+### 3.2.0 - Deprecated due to email bug - Please use 3.2.3
 - Introduced new option in SDK `emitcontactformdetails`.If it set to `true`, the onReady and onChange callbacks will be enriched with contact form details information. 
 - Added new `contactForm`.Only present if `emitContactFormDetails` set to true (and contactDetails set to true in the profile manager mop-config) with the following properties (or Null if not filled or irrelevant):
   -  `email`: String.
