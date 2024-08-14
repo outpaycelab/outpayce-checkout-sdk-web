@@ -1,5 +1,13 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 4.1.1 - Supported until 15 May 2025
+- Fix QRPh logo not displayed
+
+### 4.1.0 - Deprecated due to QRPh logo not displayed - Please use 4.1.1
+- Added `billingAddressOrder` as SDK option
+- Replaced the instaPay AMOP logo with the one of QRPh
+- Replaced InstaPay Amop label name by QRPh
+
 ### 4.0.0 - Supported until 15 May 2025
 - Migration to Angular 17
 - Migration to Material 17 with official Material Design Components for Web (MDC).
