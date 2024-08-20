@@ -135,6 +135,7 @@ __`AmadeusCheckoutOptions` properties:__
 |`collectCardExpiryDate`|Boolean|`true`| If set to `false`, the expiry date selector will not be shown. |
 |`showSaveCardToggle`|Boolean|`false`| If set to `true`, a toggle is added after the card information that user can turn on to have its card saved. This information can then be retrieved via the GET checkout-forms. |
 |`preferredCountryCodes`|Array\[String\]|`[]`| List of country codes to be displayed on top of the country list in billing address form.|
+|`billingAddressOrder`|Enum:`default`,`US_BILLING_ADDRESS_ORDER` |`default`| Specifies the template for billing address form as a single string.
 |`deniedCardIssuingCountries`|Array\[String\]|`[]`| List of country codes which issuing cards are blocked.|
 |`collectBillingAddressForCountries`|Array\[String\]|`[]`| List of country codes for which billing address is collected. If the option is not provided, billing address can be collected for any country.|
 |`forceChangeDetection`| `Boolean` |`false`| /!\ Not to be used in a standard use case /!\ In case your framework is messing up with application lifecycle, use this option to force change detection on CVV and PAN field. |
@@ -632,7 +633,7 @@ If the provider is different from the three currently supported by the SDK, you 
 | AmopStripeRedirect     | Stripe Redirect Payments   |                                                                                                                                                       |
 | AmopBizum     | Bizum   |                                                                                                                                                       |
 | AmopDuitNow     | DuitNow   |                                                                                                                                                       |
-| AmopInstaPay    | Insta Pay   |                                                                                                                                                       |
+| AmopQrph    | Qrph   |                                                                                                                                                       |
 | AmopOrange     | Orange Money   |                                                                                                                                                          |
 | Amop                   | `undefined`                | This type is used for alternative payment methods that are not yet known by Checkout SDK. The `name` attribute can be used as alternative identifier. |
 | PayByLink              | PayByLink                  |                                                                                                                                                       |  
