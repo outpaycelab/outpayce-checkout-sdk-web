@@ -1,5 +1,27 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 4.2.0 - Supported until 15 May 2025
+
+- Wallet Login Enhancement: The wallet login page is now bypassed if account information is already available in the load response.
+- Wallet Account Details: The `showWalletAccountDetails` option has been added, enabling the display of wallet information post user login.
+- Contact-Form Enhancements:
+  - Autocomplete for Country Code: Filter country codes by country name or code.
+  - Clear Icon: A clear icon has been added to the country code input field for easier editing.
+  - Dynamic Phone Number Validation: Implemented a length validation mechanism for phone numbers that dynamically adjusts based on the selected country code.
+  - Optimized Input: Automatically removes phone indicator if already entered and country code is selected.
+  - Auto-Select Country Code: The country code field now auto-populates based on the prefilled phone number.
+- UI Adjustments
+  - Wallet Component:
+    - Updated the Wallet Component by removing the Amount field, apply button, title, and subtitle, and refining the remaining UI fields.
+- CardBinCheck Enhancements:
+  - Extended BIN Support: Enhanced `CardBinCheck` Reply and `OnChange` Callback to accommodate 7 and 8 digit BINs. The `bin` field will continue to hold 6 digits, while the `extendedBin` field will now support 7 or 8 digit BINs, if applicable.
+- New Logos Added:
+  - Payment Methods: Uplift, Alma, Amazon Pay, Cartes Bancaires, Cheque Vacances, Clearpay, Riverty, Flexpay.
+- Bug Fixes:
+  - Split Payment: Rectified a previously existing issue that hindered the proper functioning of split payments when using two prefilled cards.
+- Language Support:
+  - Slovak Translation: Added support for the Slovak language.
+
 ### 4.1.1 - Supported until 15 May 2025
 - Fix QRPh logo not displayed
 
