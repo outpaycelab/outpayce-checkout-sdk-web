@@ -1,5 +1,17 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 4.6.0 - Supported until 15 May 2025
+- Added  `cardholderNameRegex` option
+
+### 4.5.0 - Supported until 15 May 2025
+- Improved wallet and miles layout, spacing and typography
+- Adapted setLoyalty helper function to work with miles
+- Added `useHelperFunctionForMiles` option
+- expiryDate display is now configurable (based on configuration)
+- CVV length can now be taken from Cobadge card (based on configuration)
+- Automatic removal of duplicates from provided list of preferredCountryCodes
+- New Logos Added: Korean AMOP, EMIS, SEMIS
+
 ### 4.4.0 - Supported until 15 May 2025
 - Added New Payment Method:
   - South Korean Payment Methods
