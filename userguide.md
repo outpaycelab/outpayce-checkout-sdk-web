@@ -66,13 +66,13 @@ With these very few steps you can collect payments in your web application:
 Include the following scripts and CSS in your web page.
 
 ```HTML
-<script src="https://prd.payment.amadeus.com/checkout/sdk/4.6.0/sdk-es2015.js" integrity="sha384-CtG5VRCX2a6XPrM0nSreDIb2CvXkNzSuKKCtrlYtUC8vzU+01HyiKwMAp5TD1+n8" crossorigin="anonymous"></script>
-<link rel="stylesheet"  href="https://prd.payment.amadeus.com/checkout/sdk/4.6.0/sdk.css" integrity="sha384-PxY0l2o4ZNHU96cDetNVSb5wJDrxX63KNcT60xxnPjxvx4/uxfFxysATJleJHaaQ" crossorigin="anonymous">
+<script src="https://prd.payment.amadeus.com/checkout/sdk/5.0.0/sdk-es2015.js" integrity="sha384-cuqVh/0A75K/ZscZnqQx5o3z0YVfNFP9NJ/ksLBJP1QZjtbEyzMCNCat6H9pv1GZ" crossorigin="anonymous"></script>
+<link rel="stylesheet"  href="https://prd.payment.amadeus.com/checkout/sdk/5.0.0/sdk.css" integrity="sha384-xlGmvFOWqf14lJgvyxcMcf+Ljs4mehLYI4+ekJ6hWAhzyKZjzypBDXSnq/gbpewC" crossorigin="anonymous">
 ```
 
 If your website is based on Angular Material, you can use this alternate CSS file, that is lighter as it doesn't contain Material rules:
 ```HTML
-<link rel="stylesheet"  href="https://prd.payment.amadeus.com/checkout/sdk/4.6.0/sdk-no-material.css" integrity=" sha384-vMtS6sMPA0VISTd0vcbzCXrvd6xeF5kMwgbNSZLzt9O3DB3t1s3lu5Xandt9koCq" crossorigin="anonymous">
+<link rel="stylesheet"  href="https://prd.payment.amadeus.com/checkout/sdk/5.0.0/sdk-no-material.css" integrity=" sha384-vY2CCgIirbneo+gzFqW6xtfhljUKyTq94D7uZKpSlvG3JLuFVadMr4a/G3G+bz0F" crossorigin="anonymous">
 ```
 
 If the Checkout SDK components are inserted inside a shadow DOM, the above CSS file will have to be inserted in the corresponding ShadowRoots instead.
