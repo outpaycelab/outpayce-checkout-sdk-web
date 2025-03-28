@@ -1,5 +1,11 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 5.0.0 - Supported until 19 May 2026
+- Migrated to angular 19
+
+### 4.7.0 - Supported until 15 May 2025
+- New Logos Added:
+  - Payment Methods: qr , mobilebanking, installment, ewallet  payment
 ### 4.6.0 - Supported until 15 May 2025
 - Added  `cardholderNameRegex` option
 
