@@ -1,11 +1,30 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 5.2.0 - Supported until 19 May 2026
+- Apple Pay Enhancements: Enabled multiple modes of payment with Apple Pay.
+- Fix Wallet not working when no decimals provided
+- New Logos Added:
+  - Vendor Card: CMI
+  - Payment Method: Klarna (rebranding)
+
+### 5.1.0 - Supported until 19 May 2026
+- New Logos Added:
+  - Vendor Card: Jalcard
+  - Payment Methods: mybank
+
+### 5.0.1 - Supported until 19 May 2026
+- Fix input fields color
+
 ### 5.0.0 - Supported until 19 May 2026
 - Migrated to angular 19
+
+### 4.8.0 - Supported until 15 May 2025
+- Billing Address Collection Restriction: Introduced the `billingAddressExclusionsByBIN` SDK option, allowing the exclusion of billing address collection for specific countries based on the credit card’s BIN issuance country.
 
 ### 4.7.0 - Supported until 15 May 2025
 - New Logos Added:
   - Payment Methods: qr , mobilebanking, installment, ewallet  payment
+
 ### 4.6.0 - Supported until 15 May 2025
 - Added  `cardholderNameRegex` option
 
