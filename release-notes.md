@@ -1,5 +1,14 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 5.3.1 - Supported until 19 May 2026
+- Sanitize miles data received to avoid exception in case of missing information
+
+### 5.3.0 - Supported until 19 May 2026
+- Apple Pay Enhancements: Convey billingContact information when provided
+- Fix miles UI component inconsistent behaviour in case of low value ranks
+- Added translation for Icelandic language support
+- Added support for Google Pay (Crypto3DS only transactions)
+
 ### 5.2.0 - Supported until 19 May 2026
 - Apple Pay Enhancements: Enabled multiple modes of payment with Apple Pay.
 - Fix Wallet not working when no decimals provided
