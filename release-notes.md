@@ -1,5 +1,11 @@
 # Outpayce Checkout SDK - Release Notes
 
+### 5.4.1 - Supported until 19 May 2026
+- Fixed GooglePay integration: read merchantId from the profile and send it to Google in  production environment.
+
+### 5.4.0 - Supported until 19 May 2026
+- Added support for PayNow and PayTo payment methods
+
 ### 5.3.1 - Supported until 19 May 2026
 - Sanitize miles data received to avoid exception in case of missing information
 
