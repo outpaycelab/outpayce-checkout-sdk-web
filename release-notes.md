@@ -1,5 +1,11 @@
 # Outpayce Checkout SDK - Release Notes
-### 5.6.0 - Supported until 19 May 2026
+### 5.6.2 - Supported until 19 May 2026
+- Fix ApplePay Button Creation issue: Load the applepayjs for all scenarios when applepay is an eligible MOP.
+
+### 5.6.1 - Supported until 19 May 2026 - Deprecated due to a bug on ApplePay - Please use 5.6.2
+- Making apple pay on non-safari browsers enhancement configurable via the profile manager configurations.
+
+### 5.6.0 - Supported until 19 May 2026 - Deprecated due to a bug on ApplePay - Please use 5.6.2
 - Support Apple Pay on non-safari browsers
 - **Enhanced Apple Pay Integration**: Added `createApplePayButton()` method to the Core SDK orchestrator, allowing direct creation of Apple Pay buttons without requiring Angular-specific components
 - New Logos Added:
@@ -34,6 +40,7 @@
   - Payment Method: Klarna (rebranding)
 
 ### 5.1.0 - Supported until 19 May 2026
+- **3DS Direct API Support**: Added support for Cardinal Commerce Direct API mode.
 - New Logos Added:
   - Vendor Card: Jalcard
   - Payment Methods: mybank
