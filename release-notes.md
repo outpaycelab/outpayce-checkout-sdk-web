@@ -1,4 +1,11 @@
 # Outpayce Checkout SDK - Release Notes
+### 5.7.0 - Supported until 19 May 2026
+- `createApplePayButton()` and `createGooglePayButton()` will now by default use the sdk language passed at initialisation. It can still be changed at call time through function parameters (cf userguide).
+- Updated Songbird JavaScript solution to comply with PCI DSS v.4 requirements as per Cardinal guidelines
+
+### 5.6.3 - Supported until 19 May 2026
+- Added new vendor logo for Tamara.
+
 ### 5.6.2 - Supported until 19 May 2026
 - Fix ApplePay Button Creation issue: Load the applepayjs for all scenarios when applepay is an eligible MOP.
 
@@ -11,6 +18,9 @@
 - New Logos Added:
   - Payment Method: Fawry, STC Pay, TRU, ThaiQR
   - Added new vendor logo for Thai QR
+
+### 5.5.1 - Supported until 19 May 2026
+- Fix Minor bug for closing 3ds v2 direct api challenge iframe
 
 ### 5.5.0 - Supported until 19 May 2026
 - **Enhanced Google Pay Integration**: Added `createGooglePayButton()` method to the Core SDK orchestrator, allowing direct creation of Google Pay buttons without requiring Angular-specific components
