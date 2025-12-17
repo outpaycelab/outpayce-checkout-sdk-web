@@ -1,4 +1,7 @@
 # Outpayce Checkout SDK - Release Notes
+### 5.8.0 - Supported until 19 May 2026
+- Added new vendor logo for MVola.
+
 ### 5.7.0 - Supported until 19 May 2026
 - `createApplePayButton()` and `createGooglePayButton()` will now by default use the sdk language passed at initialisation. It can still be changed at call time through function parameters (cf userguide).
 - Updated Songbird JavaScript solution to comply with PCI DSS v.4 requirements as per Cardinal guidelines
