@@ -1,4 +1,7 @@
 # Outpayce Checkout SDK - Release Notes
+### 6.0.0 - Supported until 21 Nov 2026
+- Migrated to angular 20
+
 ### 5.8.0 - Supported until 19 May 2026
 - Added new vendor logo for MVola.
 
