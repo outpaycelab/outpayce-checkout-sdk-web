@@ -846,8 +846,7 @@ If the provider is different from the three currently supported by the SDK, you 
 | AmopSeb                | SEB                          |                                                                                                                                                       |
 | AmopSemis              | Multicaixa Express           |                                                                                                                                                       |
 | AmopSepa               | Sepa                         |                                                                                                                                                       |
-| AmopSid				 | Sid 							|
-|
+| AmopSid				    | Sid 							     |                                                                                                                                                       |
 | AmopShopback           | ShopBack                     |                                                                                                                                                       |
 | AmopShopeepay          | Shopee Pay                   |                                                                                                                                                       |
 | AmopSofort             | Sofort                       |                                                                                                                                                       |
