@@ -1,6 +1,16 @@
 # Outpayce Checkout SDK - Release Notes
+### 6.1.0 - Supported until 21 Nov 2026
+- Introduced new SDK option `currencyDisplayFormat` which will control the appearance of currency.
+- Introduced `CheckoutUIHandler` functionality to control the display of `saveMyCard` toggle element and `billingAddress` section of `creditcard` MOPs.
+- Enhanced accessibility across payment forms with improved labels and descriptions, keyboard navigation support, and screen reader compatibility.
+- Added definition of Maya payment method. This is replacing the PayMaya payment method following PayMaya's rebranding. If you were using the AmopPaymaya in an older SDK version, please use AmopMaya from this SDK version onward.
+- Added new vendor logos for Sctinstant, QR Code, GhQR, PSE, Iris Payments, M-Pesa, PesaLink, Tingg, and Wave.
+- Updated iDeal logo following rebranding.
+- Added support of new Fraud partner Riskified
+
 ### 6.0.0 - Supported until 21 Nov 2026
 - Migrated to angular 20
+- Added new vendor logo for Tabby.
 
 ### 5.8.0 - Supported until 19 May 2026
 - Added new vendor logo for MVola.
