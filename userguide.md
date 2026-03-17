@@ -117,7 +117,7 @@ With these very few steps you can collect payments in your web application:
 Include the following scripts and CSS in your web page.
 
 ```HTML
-<script src="https://prd.payment.amadeus.com/checkout/sdk/6.1.0/sdk-es2015.js" integrity="sha384-+kga8xmMBaa4gh+OGqEXlJYzQNh1ymrDs2snxTi5BDsLNYTy98+POPG2NHogMaBw" crossorigin="anonymous"></script>
+<script src="https://prd.payment.amadeus.com/checkout/sdk/6.1.0/sdk-es2022.js" integrity="sha384-+kga8xmMBaa4gh+OGqEXlJYzQNh1ymrDs2snxTi5BDsLNYTy98+POPG2NHogMaBw" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://prd.payment.amadeus.com/checkout/sdk/6.1.0/sdk.css" integrity="sha384-UllymVRYIljeXwI0hy6AyiCHNb9pHV/7SV3yASh9ThvMoyYf8QhHaDMYYN/wcqDK" crossorigin="anonymous">
 ```
 
