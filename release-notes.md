@@ -1,4 +1,12 @@
 # Outpayce Checkout SDK - Release Notes
+### 6.2.0 - Supported until 21 Nov 2026
+- Introduced new SDK option `iframeStyle/fontUrl` which now allows custom fonts to be used in iframe fields. In order to work, font domain must be whitelisted on our side (contact your payment implementation team).
+- Introduced a widget for Tabby along with support for future widgets configured via `WidgetManagement` in the profile manager.
+- Added new vendor logo for Jaywan.
+
+### 6.1.1 - Supported until 21 Nov 2026
+- Added new vendor logo for handsin.
+
 ### 6.1.0 - Supported until 21 Nov 2026
 - Introduced new SDK option `currencyDisplayFormat` which will control the appearance of currency.
 - Introduced `CheckoutUIHandler` functionality to control the display of `saveMyCard` toggle element and `billingAddress` section of `creditcard` MOPs.
