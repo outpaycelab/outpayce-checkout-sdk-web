@@ -5,6 +5,7 @@
 - Added new vendor logo for Jaywan.
 
 ### 6.1.1 - Supported until 21 Nov 2026
+- **3DS ACI Support**: Added support for ACI 3D Secure authentication provider.
 - Added new vendor logo for handsin.
 
 ### 6.1.0 - Supported until 21 Nov 2026
