@@ -1,4 +1,8 @@
 # Outpayce Checkout SDK - Release Notes
+### 6.3.0 - Supported until 21 Nov 2026
+- Improved error reporting when the `ppid` has expired before the SDK could load: the `onError` callback now returns `errorType: "SessionTimeout"` (with `nextAction: "Reset"`) instead of the generic `Unexpected`, making it easier to distinguish expired sessions from real failures.
+- Apple Pay can now supports Multi Currency Pricing (MCP). This feature requires a configuration - Contact our payment implementation team to enable it. Integrators to check `isMcpEnabled` field of the payment method in the `onReady` callback to check if it can be proposed.
+
 ### 6.2.0 - Supported until 21 Nov 2026
 - Introduced new SDK option `iframeStyle/fontUrl` which now allows custom fonts to be used in iframe fields. In order to work, font domain must be whitelisted on our side (contact your payment implementation team).
 - Introduced a widget for Tabby along with support for future widgets configured via `WidgetManagement` in the profile manager.
