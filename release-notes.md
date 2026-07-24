@@ -1,4 +1,7 @@
 # Outpayce Checkout SDK - Release Notes
+### 7.0.1 - Supported until May 2027
+- Fix minor bug about displaying error message
+
 ### 7.0.0 - Supported until May 2027
 - Added new vendor logo for octopus.
 - Migrated to Angular 21
