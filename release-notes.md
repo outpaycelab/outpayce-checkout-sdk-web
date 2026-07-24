@@ -1,4 +1,9 @@
 # Outpayce Checkout SDK - Release Notes
+### 7.0.0 - Supported until May 2027
+- Added new vendor logo for octopus.
+- Migrated to Angular 21
+- **FPX Bank Selection**: Added bank selection dropdown for FPX payments with bank logos.
+
 ### 6.3.0 - Supported until 21 Nov 2026
 - Improved error reporting when the `ppid` has expired before the SDK could load: the `onError` callback now returns `errorType: "SessionTimeout"` (with `nextAction: "Reset"`) instead of the generic `Unexpected`, making it easier to distinguish expired sessions from real failures.
 - Apple Pay can now supports Multi Currency Pricing (MCP). This feature requires a configuration - Contact our payment implementation team to enable it. Integrators to check `isMcpEnabled` field of the payment method in the `onReady` callback to check if it can be proposed.
