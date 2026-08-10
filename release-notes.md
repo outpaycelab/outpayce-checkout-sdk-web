@@ -1,4 +1,7 @@
 # Outpayce Checkout SDK - Release Notes
+### 7.1.0 - Supported until May 2027
+- Updated MTN logo.
+
 ### 7.0.1 - Supported until May 2027
 - Fix minor bug about displaying error message
 
