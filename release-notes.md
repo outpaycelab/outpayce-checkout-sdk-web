@@ -1,4 +1,9 @@
 # Outpayce Checkout SDK - Release Notes
+### 7.1.0 - Supported until May 2027
+- Updated MTN logo.
+- Fixed minor bug that invalidates the credit card form when a billing address is entered and a payment fails, followed by a page refresh.
+
+
 ### 7.0.1 - Supported until May 2027
 - Fix minor bug about displaying error message
 
