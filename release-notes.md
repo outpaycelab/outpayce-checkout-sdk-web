@@ -1,4 +1,8 @@
 # Outpayce Checkout SDK - Release Notes
+### 7.2.0 - Supported until August 2027
+- **Google Pay Price Breakdown**: The Google Pay `paymentRequest` option now supports `displayItems` and `totalPriceLabel`, allowing integrators to display a price breakdown (e.g. line items, taxes, discounts) and a custom total label on the Google Pay Payment Sheet. Refer to the SDK Userguide for more details.
+- Added the possibility to customize the digit at which the bin call is triggered when entering a card - Contact our payment implementation team to enable it.
+
 ### 7.1.0 - Supported until May 2027
 - Updated MTN logo.
 - Fixed minor bug that invalidates the credit card form when a billing address is entered and a payment fails, followed by a page refresh.
