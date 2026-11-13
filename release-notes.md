@@ -1,14 +1,14 @@
 # Outpayce Checkout SDK - Release Notes
-### 7.3.1 - Supported until October 2027
+### 7.3.1 - Supported until May 2027
 - Added new vendor logo for Alipay+.
-- communicate the time difference to TdsDeviceInformation for 3ds acceptance
+- Small 3DS Direct api enhancements
 
-### 7.3.0 - Supported until August 2027
+### 7.3.0 - Supported until May 2027
 - **Cybersource 3DS Direct API**: Due to Cybersource new domain migration. All Cybersource Direct API users must migrate to this SDK version or a later one.
 - Added new vendor logo for Mercado Pago.
 - **onError Callback Enhancement**: Enhances the `onError` callback with a new `errorTrace` array (error code, owner, and description) to provide clearer, more consistent payment failure messages. Please contact your payment implementation team to enable it.
 
-### 7.2.0 - Supported until August 2027
+### 7.2.0 - Supported until May 2027
 - **Google Pay Price Breakdown**: The Google Pay `paymentRequest` option now supports `displayItems` and `totalPriceLabel`, allowing integrators to display a price breakdown (e.g. line items, taxes, discounts) and a custom total label on the Google Pay Payment Sheet. Refer to the SDK Userguide for more details.
 - Added the possibility to customize the digit at which the bin call is triggered when entering a card - Contact our payment implementation team to enable it.
 
