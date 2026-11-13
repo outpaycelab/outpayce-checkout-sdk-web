@@ -74,8 +74,6 @@ Both modes require the following CSP policies:
   * `img-src https://img.riskified.com/`
   * `connect-src https://c.riskified.com/`
 
-Ensure the directives you add keep the existing restrictions (for example retain `'self'`) that apply to your site.
-
 ### Browser & Platform Support
 
 The SDK is designed for integration in web browsers. The following browsers are officially supported and tested:
@@ -116,20 +114,18 @@ With these very few steps you can collect payments in your web application:
 Include the following scripts and CSS in your web page.
 
 ```HTML
-<script src="https://prd.payment.amadeus.com/checkout/sdk/7.2.0/sdk-es2022.js" integrity="sha384-n/N+RhyZ+GIZCHteYhvzkFTbUX5RHqaaPQaBaXcwrVASZshzqO3zHuxg9iDzAYM3" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://prd.payment.amadeus.com/checkout/sdk/7.2.0/sdk.css" integrity="sha384-UllymVRYIljeXwI0hy6AyiCHNb9pHV/7SV3yASh9ThvMoyYf8QhHaDMYYN/wcqDK" crossorigin="anonymous">
+<script src="https://prd.payment.amadeus.com/checkout/sdk/7.3.1/sdk-es2022.js" integrity="sha384-qNrP0ioUHFefO8TRRqv3VR1eRqE7FR/ERRM+zpjyV/OPSmaU/x6KRybJ2iKWT8le" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://prd.payment.amadeus.com/checkout/sdk/7.3.1/sdk.css" integrity="sha384-UllymVRYIljeXwI0hy6AyiCHNb9pHV/7SV3yASh9ThvMoyYf8QhHaDMYYN/wcqDK" crossorigin="anonymous">
 ```
 
 If your website is based on Angular Material, you can use this alternate CSS file, that is lighter as it doesn't contain Material rules:
 ```HTML
-<link rel="stylesheet" href="https://prd.payment.amadeus.com/checkout/sdk/7.2.0/sdk-no-material.css" integrity="sha384-X3kDRaqqSJmv86WyKNWaYsK19nAaXeO4wZmacpMwGeh6xrdvBt9bIqSVok5kbTzi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://prd.payment.amadeus.com/checkout/sdk/7.3.1/sdk-no-material.css" integrity="sha384-X3kDRaqqSJmv86WyKNWaYsK19nAaXeO4wZmacpMwGeh6xrdvBt9bIqSVok5kbTzi" crossorigin="anonymous">
 ```
 
 If the Checkout SDK components are inserted inside a shadow DOM, the above CSS file will have to be inserted in the corresponding ShadowRoots instead.
 
 Use the following link to get the sha384 checksum of each file: https://prd.payment.amadeus.com/checkout/sdk/manifest.json .
-
-
 
 ### Step 2: Initialize and configure the SDK
 
@@ -518,6 +514,10 @@ Parameters:
   - `nextAction`: `ActionType` enum. Cf. below list.
   - `errorType`: Enum `ErrorType`. Cf. below list.
   - `paymentStatus`: Enum `StatusType`. Cf. below list.
+  - `errorTrace`: Array of objects, each with the following properties:
+     - `errorCode`: `string`, Associated error code, e.g. '4159', '4127'
+     - `owner`: `string`, owner of the canned error message. Possible value: `XPP`
+     - `description`: `string`, description of the error
 
 Types:
 - Enum `ActionType`:
@@ -887,6 +887,7 @@ If the provider is different from the three currently supported by the SDK, you 
 | Amop2C2PInstallment    | 2C2P Installment Payment     | Installment Payment Processed by PSP 2C2P                                                                                                             |
 | AmopAirtel             | Airtel                       |                                                                                                                                                       |
 | AmopAlipay             | Alipay                       |                                                                                                                                                       |
+| AmopAlipayPlus         | Alipay+                      |                                                                                                                                                       |
 | AmopAlma               | Alma                         |                                                                                                                                                       |
 | AmopAmazonPay          | Amazon Pay                   |                                                                                                                                                       |
 | AmopApplePay           | Apple Pay                    | Apple Pay method works without a full page web redirection                                                                                            |
@@ -939,9 +940,10 @@ If the provider is different from the three currently supported by the SDK, you 
 | AmopKorean             | South Korean Payment Methods |                                                                                                                                                       |
 | AmopLinepay            | LINE Pay                     |                                                                                                                                                       |
 | AmopMada               | Mada                         |                                                                                                                                                       |
-| AmopMaya            | Maya                      |                                                                                                                                                       |
+| AmopMaya               | Maya                         |                                                                                                                                                       |
 | AmopMaybank            | Maybank2u                    |                                                                                                                                                       |
-| AmopMeeza            | Meeza                      |                                                                                                                                                       |
+| AmopMeeza              | Meeza                        |                                                                                                                                                       |
+| AmopMercadoPago        | Mercado Pago                 |                                                                                                                                                       |
 | AmopMobileBanking      | Mobile Banking               |                                                                                                                                                       |
 | AmopMomo               | Momo                         |                                                                                                                                                       |
 | AmopMpesa              | M-Pesa                       |                                                                                                                                                       |
