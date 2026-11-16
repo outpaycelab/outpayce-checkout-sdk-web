@@ -74,6 +74,15 @@ Both modes require the following CSP policies:
   * `img-src https://img.riskified.com/`
   * `connect-src https://c.riskified.com/`
 
+**Required policies for ApplePay:**
+* `script-src https://applepay.cdn-apple.com`
+
+**Required policies for GooglePay:**
+* `script-src https://pay.google.com`
+* `frame-src https://pay.google.com`
+
+Ensure the directives you add keep the existing restrictions (for example retain `'self'`) that apply to your site.
+
 ### Browser & Platform Support
 
 The SDK is designed for integration in web browsers. The following browsers are officially supported and tested:
